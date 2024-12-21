@@ -1,6 +1,6 @@
 "use client";
 import { BadgeCheck, Heart, UserRoundPlus } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Skeleton } from "../ui/skeleton";
