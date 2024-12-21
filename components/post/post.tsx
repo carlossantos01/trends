@@ -15,7 +15,7 @@ interface Props {
   comments: number;
 }
 export default function Post(props: Props) {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading] = useState(false);
 
   const renderLoadingPost = () => {
     return (
